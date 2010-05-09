@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/James/Git/Dripwn/Cross-platform/src/dripwn.c
+stdio.h
+-
+includes/mobiledevice.h
+/Users/James/Git/Dripwn/Cross-platform/src/includes/mobiledevice.h
+
+/Users/James/Git/Dripwn/Cross-platform/src/includes/mobiledevice.h
+CoreFoundation.h
+-
+CoreFoundation/CoreFoundation.h
+-
+mach/error.h
+-
+
